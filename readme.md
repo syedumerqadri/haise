@@ -79,6 +79,10 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
 Internal network could possibly contain large amount of IPs,So for automation first i generate some
 liner commands and then automate them.
 
+## Requirements:
+1. Currently only suppourt Kali
+2. download dirsearch and place it /haise/<here>
+
 ## Usage:
 1. git clone https://github.com/syedumerqadri/haise
 2. cd haise
