@@ -68,7 +68,8 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
                   Logging Server
                   Directory Service
                   Admin Workstation
-                                                               
+
+        •  Common Server Misconfiguration                                                           
         •  Administrator Privileges Escalation
         •  Database Security Controls Testing    
         •  Third-Party/Vendor Security Configuration Testing
