@@ -118,8 +118,8 @@ Performing Penetration Testing of Active Directory is more interesting and are m
 ![](https://github.com/syedumerqadri/haise/blob/master/ss.png)
 
 ## Tool for Automation:
-Internal network could possibly contain large amount of IPs,For automation first i generate some
-of the one liner commands and then automate them with python.
+Internal network could possibly contain large amount of IPs,So for automation first i generate some
+liner commands and then automate i them.
 
 ## Usage:
 1. git clone https://github.com/syedumerqadri/haise
