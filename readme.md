@@ -74,7 +74,7 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
         •  Database Security Controls Testing    
         •  Third-Party/Vendor Security Configuration Testing
 
-![]()
+
 
 ## Tool for Automation:
 Internal network could possibly contain large amount of IPs,So for automation first i generate some
@@ -91,6 +91,8 @@ liner commands and then automate them.
 4. python haise.py
 
 You will got the prompt shell
+![]()
+
 
 ## Shell:
 		[exit]
