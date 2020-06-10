@@ -80,8 +80,8 @@ Internal network could possibly contain large amount of IPs,So for automation fi
 liner commands and then automate them.
 
 ## Requirements:
-1. Currently only suppourt Kali
-2. download dirsearch and place it /haise/<here>
+1. Currently only suppourt in Kali
+2. download dirsearch and place it /haise/---> here <---
 
 ## Usage:
 1. git clone https://github.com/syedumerqadri/haise
