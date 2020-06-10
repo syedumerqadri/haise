@@ -84,7 +84,7 @@ liner commands and then automate them.
 2. download dirsearch and place it /haise/---> here <---
 
 ## Usage:
-1. git clone https://github.com/syedumerqadri/haise
+1. git clone https://github.com/syedumerqadri/haise.git
 2. cd haise
 3. put all discoverd OR provided cilient IPs on hosts.txt
 4. python haise.py
