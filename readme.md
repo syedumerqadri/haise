@@ -124,7 +124,7 @@ liner commands and then automate i them.
 ## Usage:
 1. git clone https://github.com/syedumerqadri/haise
 2. cd haise
-3. put all provided IPs on hosts.txt
+3. put all discoverd OR provided cilient IPs on hosts.txt
 4. python haise.py
 
 You will got the prompt shell
