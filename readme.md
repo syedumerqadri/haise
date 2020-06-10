@@ -33,7 +33,7 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
         •  Vulnerbility Scanning
                   nmap --script vuln 192.168.1.1 -d
                   nikto
-                  dirb
+                  dirsearch
                   nessus    (https://localhost:8834)
         
         •  IDS Penetration Testing
