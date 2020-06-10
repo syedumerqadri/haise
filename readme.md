@@ -77,7 +77,7 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
 
 ## Tool for Automation:
 Internal network could possibly contain large amount of IPs,So for automation first i generate some
-liner commands and then automate i them.
+liner commands and then automate them.
 
 ## Usage:
 1. git clone https://github.com/syedumerqadri/haise
