@@ -115,6 +115,8 @@ Performing Penetration Testing of Active Directory is more interesting and are m
     Connecting:
     smbclient -L 192.168.1.112 -U "Creative Green"
 
+![](https://github.com/syedumerqadri/haise/blob/master/ss.png)
+
 ## Tool for Automation:
 Internal network could possibly contain large amount of IPs,For automation first i generate some
 of the one liner commands and then automate them with python.
