@@ -73,8 +73,11 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
                   Logging Server
                   Directory Service
                   Admin Workstation
-                                         
-        •  AD Pentesting                            
+                                                               
         •  Administrator Privileges Escalation
         •  Database Security Controls Testing    
         •  Third-Party/Vendor Security Configuration Testing
+
+## AD Pentesting:
+“Active Directory” Called as “AD” is a directory service that Microsoft developed for the Windows domain network. Using it you can to control domain computers and services that are running on every node of your domain
+Active Directory (Pen Test ) is most commonly used in the Enterprise Infrastructure to manage 1000’s of computers in the organization with a single point of control as “Domain Controller”. Performing Penetration Testing of Active Directory is more interesting and are mainly targeted by many APT Groups with a lot of different techniques   
