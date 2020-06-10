@@ -116,7 +116,7 @@ Performing Penetration Testing of Active Directory is more interesting and are m
     smbclient -L 192.168.1.112 -U "Creative Green"
 
 ## Tool for Automation:
-Internal network could possibly contain large amount of IPs,For automation girst i generate some
+Internal network could possibly contain large amount of IPs,For automation first i generate some
 of the one liner commands and then automate them with python.
 
 ## Usage:
@@ -134,7 +134,7 @@ You will got the prompt shell
 		[alive]	check if hosts are alive
 		[ports]	port scan of all hosts
 		[dir]	Directory Enumuration
-	        [headers]	Grab Web Headers
+	        [headers]  Grab Web Headers
 		[scan]	Grab Headers, Port Scan and Directory Enumuration for all hosts 
 		[ids] Detect Intrusion Detection System
 		[smb] Check for SMB Services
