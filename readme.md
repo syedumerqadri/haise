@@ -12,8 +12,6 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
         •  Internal Network Scanning
                   traceroute www.google.com
                   nmap 192.168.1.*
-                  Reverse IP Lookup (https://mxtoolbox.com/ReverseLookup.aspx)
-                  Ip Info: https://ipinfo.io/
         
         •  Port Scanning
                   nmap -p- -T4 -iL sub.txt (Fast Scan)
@@ -50,7 +48,6 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
 
                 SMB Map:
                 smbmap -H 192.168.1.1
-                smbmap.py –host-file smb-hosts.txt u ‘jsmith’ -p ‘Spring!2020’ -q -R –depth 2 –exclude ADMIN$ IPC$ -A ‘passw’
 
         •  Exploit Research
                   https://www.exploit-db.com/
@@ -61,10 +58,8 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
         •  Password Strength Testing
                   rate limiting
                   sparta(tool)
-                  burp (brute force)
 
-        •  Infrastructure Mapping
-                  Maltego
+        •  Infrastructure Mapping (Maltego)
 
                   DNS Server
                   Firewall
