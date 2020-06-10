@@ -78,7 +78,7 @@ An Internal Penetration Test differs from a vulnerability assessment in that it 
 
 ## Tool for Automation:
 Internal network could possibly contain large amount of IPs,So for automation first i generate some
-liner commands and then automate them.
+one liner commands and then automate them.
 
 ## Requirements:
 1. Currently only suppourt in Kali
