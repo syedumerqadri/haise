@@ -70,7 +70,7 @@ while command != "exit":
 		os.system('python3 nmapScanner.py')
 
 	elif command == "dir":
-		os.system("cat hosts.txt | xargs -I{}  python3 dirsearch/dirsearch.py -u http://{} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -e php,jsp,rb,py,js,asp,aspx,zip,sql,tar,txt,key,doc,docx,html,jar,groovy,back,xml,ini,inc,config,json,yml,conf,cgi --plain-text-report=dir/http:{}.txt")
+		os.system("cat hosts.txt | xargs -I{}  python3 dirsearch/dirsearch.py -u http://{} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -e php,jsp,rb,py,js,asp,aspx,zip,sql,tar,txt,key,doc,docx,html,jar,groovy,back,xml,ini,inc,config,json,yml,conf,cgi --plain-text-report=dir_results/http:{}.txt")
 
 	elif command == "headers":
 		os.system("cat hosts.txt | xargs -I{} sh -c 'curl -sI http://{} > headers/{}.txt'")
@@ -81,7 +81,7 @@ while command != "exit":
 
 	elif command == "scan":
 		os.system('python3 nmapScanner.py')
-		os.system("cat hosts.txt | xargs -I{}  python3 dirsearch/dirsearch.py -u http://{} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -e php,jsp,rb,py,js,asp,aspx,zip,sql,tar,txt,key,doc,docx,html,jar,groovy,back,xml,ini,inc,config,json,yml,conf,cgi --plain-text-report=dir/http:{}.txt")
+		os.system("cat hosts.txt | xargs -I{}  python3 dirsearch/dirsearch.py -u http://{} -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -e php,jsp,rb,py,js,asp,aspx,zip,sql,tar,txt,key,doc,docx,html,jar,groovy,back,xml,ini,inc,config,json,yml,conf,cgi --plain-text-report=dir_results/http:{}.txt")
 		os.system("cat hosts.txt | xargs -I{} sh -c 'curl -sI http://{} > headers/{}.txt'")
 
 	elif command == "smb":
