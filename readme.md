@@ -106,7 +106,7 @@ You will got the prompt shell
 
 
 ## Results:
-	Discoverd Web Directories: dir
+	Discoverd Web Directories: dir_results
 	Discoverd Web headers: headers
     Port Scan Results: port_scan
 
