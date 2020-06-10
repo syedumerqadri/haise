@@ -3,11 +3,11 @@
 ![](https://github.com/syedumerqadri/haise/blob/master/image.jpg)
 
 
-# Internal Penetration Testing:
+## Internal Penetration Testing:
 
 An Internal Penetration Test differs from a vulnerability assessment in that it actually exploits the vulnerabilities to determine what information is actually exposed. An Internal Penetration Test mimics the actions of an actual attacker exploiting weaknesses in network security without the usual dangers. This test examines internal IT systems for any weakness that could be used to disrupt the confidentiality, availability or integrity of the network
 
-# Methodology:
+## Methodology:
 
         •  Internal Network Scanning
                   traceroute www.google.com
