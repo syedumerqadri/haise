@@ -91,7 +91,7 @@ liner commands and then automate them.
 4. python haise.py
 
 You will got the prompt shell
-![]()
+![](https://github.com/syedumerqadri/haise/blob/master/screenshot.png)
 
 
 ## Shell:
