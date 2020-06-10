@@ -16,6 +16,39 @@ print red + '''
 command = 1
 print("\n")
 
+dir_exist = os.popen("ls | grep -c 'dir_results'").read()
+R_DIR = int(dir_exist)
+
+if R_DIR == 1:
+	print("")
+
+elif R_DIR == 0:
+	os.system("mkdir dir_results")
+
+else:
+	print("Something went wrong")
+
+
+dir_exist = os.popen("ls | grep -c headers").read()
+R_DIR = int(dir_exist)
+
+if R_DIR == 1:
+	print("")
+
+elif R_DIR == 0:
+	os.system("mkdir headers")
+
+
+dir_exist = os.popen("ls | grep -c port_scan").read()
+R_DIR = int(dir_exist)
+
+if R_DIR == 1:
+	print("")
+
+elif R_DIR == 0:
+	os.system("mkdir port_scan")
+
+
 while command != "exit":
 	command = raw_input("COMMAND"+red+"|>" + clear)
 
@@ -64,8 +97,8 @@ while command != "exit":
 		[alive]	check if hosts are alive
 		[ports]	port scan of all hosts
 		[dir]	Directory Enumuration
-	    [headers]	Grab Web Headers
-		[scan]	Port Scan and Directory Enumuration of all hosts 
+	        [headers]	Grab Web Headers
+		[scan]	Grab Headers, Port Scan and Directory Enumuration for all hosts 
 		[ids] Detect Intrusion Detection System
 		[smb] Check for SMB Services
 
