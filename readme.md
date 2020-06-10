@@ -114,3 +114,34 @@ Performing Penetration Testing of Active Directory is more interesting and are m
 
     Connecting:
     smbclient -L 192.168.1.112 -U "Creative Green"
+
+## Tool for Automation:
+Internal network could possibly contain large amount of IPs,For automation girst i generate some
+of the one liner commands and then automate them with python.
+
+## Usage:
+1. git clone https://github.com/syedumerqadri/haise
+2. cd haise
+3. put all provided IPs on hosts.txt
+4. python haise.py
+
+You will got the prompt shell
+
+## Shell:
+		[exit]
+		[clear]
+		[hosts]	list all hosts
+		[alive]	check if hosts are alive
+		[ports]	port scan of all hosts
+		[dir]	Directory Enumuration
+	        [headers]	Grab Web Headers
+		[scan]	Grab Headers, Port Scan and Directory Enumuration for all hosts 
+		[ids] Detect Intrusion Detection System
+		[smb] Check for SMB Services
+
+
+
+
+
+
+
