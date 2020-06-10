@@ -103,7 +103,7 @@ You will got the prompt shell
 ## Results:
 	Discoverd Web Directories: dir
 	Discoverd Wev headers: headers
-     Port Scan Results: port_scan
+    Port Scan Results: port_scan
 
 
 
